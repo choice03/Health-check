@@ -44,7 +44,9 @@ Methodology
 19. Is PPD influenced by practicing birth spacing?
 20. What is the mortality rate of children?
 
+
 4. Predictive Modeling Preprocessed categorical variables using Label Encoding. Defined features (X) and target (y = depressed). Split dataset into training and testing sets (80/20). Trained a Random Forest Classifier. Evaluated with: Accuracy, Precision, Recall, F1-score (classification report). Confusion matrix.
+
 
 5. Feature Importance Extracted feature importances from the Random Forest model. Identified the Top 10 predictors of PPD (e.g., social support score, HAMD score, marital status, birth complications). Results & Insights Mothers with lower social support had a higher risk of PPD. History of depression and higher HAMD scores were strong predictors. Marital status and birth complications were also linked to increased risk. Random Forest achieved good predictive performance, showing potential for risk screening.
 
